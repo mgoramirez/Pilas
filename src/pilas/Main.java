@@ -7,6 +7,7 @@ package pilas;
 /**
  *
  * @author Majo
+ * @author Mikeu
  * 
  * Instrucciones: 
  * Trastes de una pila de un restaurante (100pts)

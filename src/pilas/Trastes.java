@@ -9,30 +9,22 @@ package pilas;
  * @author mikeu
  */
 public class Trastes {
-    private Cubiertos cima;
+    private Platos cimaPlato;
+    private Vasos cimaVaso;
     private int largo;
-    
-    public Trastes() {
-        this.cima = null;
+
+    public Trastes(Platos cimaPlato) {
+        this.cimaPlato = null;
+        this.largo = 0;
+    }
+
+    public Trastes(Vasos cimaVaso) {
+        this.cimaVaso = null;
         this.largo = 0;
     }
     
-    public boolean Vacia(){ return cima == null;}
-    
-    public int tamanio(){ return this.largo;}
-    
-    public void push(int cantidad){
-        Vasos newVaso = new Vasos();
-        newVaso.setCantidad(valor);
+    public void push(){
         
-        if (this.Vacia()){
-            this.cima = newNode;
-        }
-        else{
-            newNode.setSiguiente(this.cima);
-            this.cima = newNode;
-        }
-        this.largo++;
     }
     
 }

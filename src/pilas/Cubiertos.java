@@ -9,22 +9,20 @@ package pilas;
  * @author mikeu
  */
 public class Cubiertos {
-    private int cantidades;
+    private int cantidad;
     private String tipo;
-    private Trastes siguiente;
-    
-    public Cubiertos(int cantidad, String tipo, Trastes siguiente) {
-        this.cantidades = 0;
+
+    public Cubiertos(int cantidades, String tipo) {
+        this.cantidad = cantidades;
         this.tipo = tipo;
-        this.siguiente = null;
     }
 
-    public int getCantidad() {
-        return cantidades;
+    public int getCantidades() {
+        return cantidad;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidades = cantidad;
+    public void setCantidades(int cantidades) {
+        this.cantidad = cantidades;
     }
 
     public String getTipo() {
@@ -34,17 +32,8 @@ public class Cubiertos {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-
-    public Trastes getSiguiente() {
-        return siguiente;
-    }
-
-    public void setSiguiente(Trastes siguiente) {
-        this.siguiente = siguiente;
-    }
     
-    }
-    
+}
  
     
 

@@ -9,19 +9,30 @@ package pilas;
  * @author mikeu
  */
 public class Platos {
-    private int cantidad;
-    private Trastes siguiente;
-    Cubiertos cubiertos;
+    private String tipoPlato;
+    private Platos siguiente;
 
-    public Platos(int cantidad, Trastes siguiente) {
-        this.cantidad = 0;
+    public Platos() {
+        this.tipoPlato = "";
         this.siguiente = null;
-        this.cubiertos = new Cubiertos();
-        
-        
-    
         
     }
+
+    public String getTipoPlato() {
+        return tipoPlato;
+    }
+
+    public void setTipoPlato(String tipoPlato) {
+        this.tipoPlato = tipoPlato;
+    }
+
+    public Platos getSiguiente() {
+        return siguiente;
+    }
+
+    public void setSiguiente(Platos siguiente) {
+        this.siguiente = siguiente;
+    }
     
+    }
     
-}

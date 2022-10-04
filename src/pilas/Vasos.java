@@ -9,40 +9,31 @@ package pilas;
  * @author mikeu
  */
 public class Vasos {
-    private int cantidad;
-    private Trastes siguiente;
-    Cubiertos cubiertos;
+    private String tipoVaso;
+      private Vasos siguiente;
+      
 
-    public Vasos(int cantidad, Trastes siguiente) {
-        this.cantidad = 0;
+    public Vasos() {
+        this.tipoVaso = "";
         this.siguiente = null;
-        this.cubiertos = new Cubiertos();
-        
+                
     }
 
-    public int getCantidad() {
-        return cantidad;
+    public String getTipoVaso() {
+        return tipoVaso;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
+    public void setTipoVaso(String tipoVaso) {
+        this.tipoVaso = tipoVaso;
     }
 
-    public Trastes getSiguiente() {
+    public Vasos getSiguiente() {
         return siguiente;
     }
 
-    public void setSiguiente(Trastes siguiente) {
+    public void setSiguiente(Vasos siguiente) {
         this.siguiente = siguiente;
     }
-
-    public Cubiertos getCubiertos() {
-        return cubiertos;
-    }
-
-    public void setCubiertos(Cubiertos cubiertos) {
-        this.cubiertos = cubiertos;
-    }
-    
-    
+  
 }
+

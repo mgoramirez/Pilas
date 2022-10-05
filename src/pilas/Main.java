@@ -39,6 +39,19 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+         Pila miPila = new Pila();
+        //Tipo 1: Plato, tipo 2: vaso; tipo 3: cubierto
+        miPila.push(2);
+        miPila.push(1);  
+        miPila.push(3);
+        miPila.push(3);
+        miPila.push(1);
+
+        System.out.println("PILA");
+        
+        
+        
+        miPila.listar();        
     }
     
 }

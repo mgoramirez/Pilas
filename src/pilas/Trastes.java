@@ -3,14 +3,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package pilas;
-import javax.swing.JOptionPane;
 
 /**
  *
  * @author Asus
  */
 public class Trastes {
-    private int valor;
     private int tipo; //1=plato, 2=vaso, 3=cubiertos
     private int cubiertos;//Guarda cantidad de cubiertos
     private Trastes siguiente;
@@ -47,4 +45,4 @@ public class Trastes {
     public void setCantidad(int numero){
         this.cubiertos=numero;
     }
-   }
+}

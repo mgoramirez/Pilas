@@ -67,7 +67,8 @@ public class Pila {
         Trastes aux = cima;
         // Recorre la pila hasta el ultimo node.
         while(aux != null){
-            System.out.println("|\t" + aux.getTipo() +" cubiertos:"+ aux.getCubierto()+ "\t|");
+            System.out.println("|\t" + aux.getTipo() +" cubiertos:"+ 
+                    aux.getCubierto()+ "\t|");
             System.out.println("------------------------");
             aux = aux.getSiguiente();
         }

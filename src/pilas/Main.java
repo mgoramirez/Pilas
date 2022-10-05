@@ -49,9 +49,6 @@ public class Main {
         miPila.push(1);
 
         System.out.println("PILA");
-        
-        
-        
         miPila.listar();        
     }
     
